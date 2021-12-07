@@ -1,0 +1,89 @@
+.nav-hover:hover{
+    background-color: rgba(255, 174, 127, 0.829) !important;
+    
+  }
+  
+  .nav-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: rgb(19, 61, 247) ;
+  }
+  
+  .navAdi{
+    background-color: rgba(243, 143, 113, 0.37)  !important  ;
+    z-index: 10;
+    position: fixed !important;
+    min-width: 100vw;
+  }
+
+  div.c-wrapper{
+    width: 80%; /* for example */
+    object-fit: contain;
+    margin: auto;
+    /* height: 10rem; */
+  }
+
+  .middle{
+    width: 90% ;
+    margin: auto;
+  }
+
+ .carousel-inner > .item > img, 
+ .carousel-inner > .item > a > img{
+    width: 100%; /* use this, or not */
+    margin: auto;
+  }
+
+  .about_owner{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .owner_description{
+      border: 2px solid green;
+  }
+
+  .vertical_line{
+    border-left: 4px solid rgb(13, 14, 13);
+  }
+
+  .why_we{
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .other_services{
+      display: flex;
+      justify-content: space-evenly;
+      /* flex-direction: column; */
+  }
+  .other_services_left{
+      background-color: antiquewhite;
+      border: 2px solid black;
+      width: 25rem;
+  }
+  .other_services_right{
+      background-color: aqua;
+      border: 2px solid black;
+      width: 25rem;
+  }
+
+  input[type=text]{
+    opacity: 0.5;
+  }
+  
+  .card:hover {
+    transform:scale(1.05);
+  }
+  
+  .App-header {
+    background-color: #212521e7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(45, 245, 55);
+  }
